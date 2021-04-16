@@ -23,7 +23,8 @@ as_sass(list(
 hachi <- font_google("Hachi Maru Pop")
 as_sass(list(
   list("font-variable" = font_collection(hachi, "system-ui")),
-  list("d-title h1,
+  list("h1, 
+  d-title h1,
   d-article h1,
   d-article h2,
   d-article h3,
