@@ -11,5 +11,5 @@ navbar:
       href: about.html
 output:
   distill::distill_article:
-    #theme: sassy.scss
-    css: [sassy.scss, base-style.css]
+    theme: sassy.scss
+    #css: [sassy.scss, base-style.css]
