@@ -1,4 +1,5 @@
-name: "."
+base_url: https://apreshill.github.io/sass-distill/
+name: "distill site"
 title: "hi"
 description: |
   hi
