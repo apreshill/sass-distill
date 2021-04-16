@@ -2405,6 +2405,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <div class="layout-chunk" data-layout="l-body">
+<pre class="scss"><code>$green: #212D2C;
+$sky: #A9FDFF;
+$cyan: #36C9B4;
+  
+.my-color {
+  background-color: $green;
+  color: $sky;
+  padding: 1em;
+}
+
+.my-link a {
+  @extend .my-color;
+  color: $cyan; 
+
+  &amp;:hover {
+      background-color: rgba( $green, .5 );  
+      color: white;
+  }
+}</code></pre>
 <style type="text/css">
 .my-color,.my-link a{background-color:#212D2C;color:#A9FDFF;padding:1em}.my-link a{color:#36C9B4}.my-link a:hover{background-color:rgba(33,45,44,0.5);color:white}
 </style>
@@ -2416,7 +2435,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h3 id="of-the">of the</h3>
 <h4 id="hour">hour</h4>
 <p>That’s what he said But I can’t choose between a vegan And a pot head So I chose you Because you’re sweet And you give me lots of lovin’ And you eat meat And that’s how you became My only man of the hour You never lie And you don’t cheat And you don’t have any baggage tied To your four feet Do I deserve To be the one Who will feed you breakfast, lunch, and dinner And take you to the park at dawn Will you really be My only man of the hour</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

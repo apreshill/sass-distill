@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{scss}
+```{scss echo = TRUE}
 $green: #212D2C;
 $sky: #A9FDFF;
 $cyan: #36C9B4;
