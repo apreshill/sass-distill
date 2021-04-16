@@ -8,6 +8,33 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{scss}
+$green: #212D2C;
+$sky: #A9FDFF;
+$cyan: #36C9B4;
+  
+.my-color {
+  background-color: $green;
+  color: $sky;
+  padding: 1em;
+}
+
+.my-link a {
+  @extend .my-color;
+  color: $cyan; 
+
+  &:hover {
+      background-color: rgba( $green, .5 );  
+      color: white;
+  }
+}
+```
+
+::: {.my-link}
+This is a link that will be [cyan](https://pkgs.rstudio.com/rmarkdown/), 
+but you can read more in [[The Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)]{#cookbook}.
+:::
+
 ## Man
 
 ### of the

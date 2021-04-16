@@ -43,7 +43,7 @@ as_sass(list(
   # make the variable
   list("font-variable" = font_collection(mono, "system-ui")),
   # make the rule
-  list("html{--mono-font: $font-variable}")
+  list("html{--mono-font: var(--font-variable)}")
 ))
 ```
 
