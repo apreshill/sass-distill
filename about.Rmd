@@ -7,3 +7,29 @@ description: |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Man
+
+### of the
+
+#### hour
+
+That's what he said
+But I can't choose between a vegan
+And a pot head
+So I chose you
+Because you're sweet
+And you give me lots of lovin'
+And you eat meat
+And that's how you became
+My only man of the hour
+You never lie
+And you don't cheat
+And you don't have any baggage tied
+To your four feet
+Do I deserve
+To be the one
+Who will feed you breakfast, lunch, and dinner
+And take you to the park at dawn
+Will you really be
+My only man of the hour
